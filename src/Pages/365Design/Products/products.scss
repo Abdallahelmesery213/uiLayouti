@@ -1,0 +1,13 @@
+.img_prod {
+    display: block;
+    margin: 60px auto;
+    width: 100%;
+    //height: 550px;
+    cursor: pointer;
+    object-fit: contain;
+    @media only screen and (max-width: 600px) {
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,74 @@
+.ui__card {
+    @media only screen and (max-width: 600px)  {
+        padding: 0 20px!important;
+    }
+}
+.ui_card {
+    width: 100%;
+    height: 500px;
+    background-color: #F4F8FB;
+    border: 1px solid rgba(206, 219, 228, 0.7);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    .person_img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: contain;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: block;
+    }
+    .ui_card_body {
+        text-align: center;
+        margin-top: 30px;
+        p {
+            size: 16px;
+            line-height: 20px;
+            margin: 0;
+            color: #000;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.nav-link {
+    border-radius: 50px !important;
+    height: 57px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F8FB !important;
+    color: #000 !important;
+    border: 1px solid #CEDBE4 !important;
+    &.active {
+        color: #fff !important;
+        background-color: #3AAA35 !important;
+        border: 1px solid #3AAA35 !important;
+
+    }
+}
+.nav_tap {
+    width: calc(100% / 3);
+    // @media only screen and (max-width: 600px)  {
+    //     width: 100%;
+    // }
+}
+
+
+
+.load_more {
+    display: block;
+    margin: 20px auto;
+    width: 280px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #3AAA35;
+    font-size: 16px;
+    background-color: transparent;
+}
+.spin {
+    text-align: center;
+    margin-top: 20px;
+}

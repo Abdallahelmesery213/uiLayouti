@@ -1,0 +1,53 @@
+.bannerLearnui{
+    border-radius: 20px;
+    border: 1px solid #DADADA;
+    background-image: url('https://progrisaas.s3-ap-southeast-1.amazonaws.com/images/home7-bg-3.png');
+    background-color: #fff;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 60px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.bannerLearnui h2{
+    font-size: 36px;
+    color: #223354;
+    line-height: 44px;
+    font-weight: 600;
+    width: 90%;
+}
+@media only screen and (max-width: 768px) {
+    .bannerLearnui button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+.bannerLearnui button{
+    color: #181818;
+    outline: none;
+    border: 1px solid #61ce70 !important;
+    padding: 18px 52px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.bannerLearnui button:hover{
+    background-color: #61ce70 !important;
+    color: #fff;
+}
+@media only screen and (max-width: 528px) {
+    .bannerLearnui{
+        margin: 40px 20px !important;
+        padding: 20px !important;
+    }
+    .bannerLearnui h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .bannerLearnui button{
+        display: block !important;
+        width: 100%;
+    }
+}

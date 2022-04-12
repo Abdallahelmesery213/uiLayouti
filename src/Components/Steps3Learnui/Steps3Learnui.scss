@@ -1,0 +1,32 @@
+.steps{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.steps .steps-header h2{
+    color: #223354;
+    font-weight: 600;
+    font-size: 48px;
+    line-height:58px;
+}
+.steps .steps-header p{
+    color: #646e83;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 528px) {
+    .steps{
+        margin: 40px 20px;
+        padding: 20px;
+    }
+    .steps .steps-header h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .steps .steps-header p{
+        font-size: 21px !important;
+        line-height: 21px !important;
+    }
+}

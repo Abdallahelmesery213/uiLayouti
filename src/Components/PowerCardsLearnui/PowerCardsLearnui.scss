@@ -1,0 +1,27 @@
+.powerCardsLearnui{
+    margin-top: 100px;
+}
+.powerCardsLearnui .cards-header h2{
+    font-weight: 600px;
+    color: #181818;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.powerCardsLearnui .cards-header p{
+    font-weight: 400;
+    color: #646e83;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 528px) {
+    .powerCardsLearnui{
+        margin: 40px 20px !important;
+        padding: 20px !important;
+    }
+    .powerCardsLearnui .cards-header h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+}

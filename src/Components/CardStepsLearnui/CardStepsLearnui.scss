@@ -1,0 +1,31 @@
+.card-steps{
+    border-radius: 20px ;
+    padding:25px 20px 0;
+    border: 1px solid #DADADA;
+    margin-top: 30px;
+    width: 100%;
+}
+.card-steps:hover{
+    background-color: #61CE7017;
+    border: 1px solid #61ce70;
+    transition: all 0.6s linear;
+}
+.card-steps h4{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #223354;
+    line-height:30px;
+    font-size: 24px;
+}
+.card-steps p{
+    font-weight: 400 !important;
+    color: #646e83 !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+}
+@media only screen and (max-width: 528px) {
+    .card-steps h4{
+        font-size: 22px !important;
+        line-height:30px !important;
+    }
+}

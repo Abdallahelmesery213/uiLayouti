@@ -1,0 +1,77 @@
+
+.questionsLearnui{
+    margin-top: 100px !important;
+}
+.questionsLearnui .questions-header h2{
+    font-weight: 600;
+    color: #223354;
+    font-size: 48px;
+    line-height: 58px;
+}
+.questionsLearnui .questions-header p{
+    font-weight: 400;
+    color: #646e83;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.questionsLearnui .accordion .accordion-item{
+    transition: all 0.6s linear !important;
+}
+.questionsLearnui .accordion-button{
+    font-weight: 600 !important;
+    color: #223354 !important;
+    font-size: 24px !important;
+    line-height: 30px !important;
+
+}
+.questionsLearnui .accordion-item .accordion-body {
+    margin-left: -8px;
+    font-weight: 400 !important;
+    color: #646e83 !important;
+    font-size: 18px !important;
+    line-height:25px !important;
+    width: 90%;
+}
+
+.questionsLearnui .accordion-button:not(.collapsed){
+    color: #61ce70 !important;
+}
+.questionsLearnui .accordion .hr-accordin{
+    width: 97%;
+    margin-left: 20px;
+}
+.questionsLearnui .accordion .accordion-button::after{
+    background-image: url(../../assets/images/+.png) !important;
+    background-position: center;
+    border: 2px solid #EEF8F1;
+    border-radius: 50%;
+    padding: 22px;
+    background-color: #EEF8F1;
+}
+.questionsLearnui .accordion-button:not(.collapsed)::after{
+    background-image: url(../../assets/images/_.png) !important;
+}
+@media only screen and (max-width: 528px) {
+    .questionsLearnui{
+        margin: 40px 20px !important;
+        padding: 0 20px !important;
+    }
+    .questionsLearnui .questions-header h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .questionsLearnui .questions-header p{
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+    .questionsLearnui .accordion-button{
+        font-size: 22px !important;
+        line-height:30px !important; 
+    }
+    .questionsLearnui .accordion-item .accordion-body{
+        font-size: 16px !important;
+        line-height:25px !important;
+    }
+}

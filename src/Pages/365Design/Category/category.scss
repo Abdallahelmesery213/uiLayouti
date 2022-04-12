@@ -1,0 +1,36 @@
+.category_cover {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.link_tree  {
+   
+    p {
+        font-size: 18px;
+        text-transform: capitalize;
+        &:first-of-type {
+            color: #42BF64;
+            text-decoration: underline;
+        }
+        &:last-of-type {
+            color: #adadad;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        padding: 0 20px !important;
+    }
+}
+
+
+.categ__name {
+    @media only screen and (max-width: 600px) {
+        padding: 0 20px !important;
+    }
+}

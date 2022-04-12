@@ -1,0 +1,123 @@
+.userInterface-content .row1{
+    min-height: 450px;
+    display: flex;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.userInterface-content .row1 .text{
+    width: 97%;
+    margin-left: 10px;
+}
+.userInterface-content .row1 .text h2{
+    color: #181818;
+    font-family: "Cairo", Sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+}
+.userInterface-content .row1 img{
+    height: 100%;
+}
+.userInterface-content .row1 .text p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Cairo", Sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #646e83;
+    font-size: 18px;
+}
+.userInterface-content .row1 .text ul{
+    display: contents;
+}
+.userInterface-content .row1 .text ul li{
+    margin-bottom: 10px;
+}
+.userInterface-content .row1 .text ul .check-icon{
+    background-color: #39B14A;
+    color: #fff;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    padding: 12px;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 20px;
+}
+.userInterface-content .row1 .text ul .prag{
+    font-weight: 400;
+    font-family: "Cairo", Sans-serif;
+    color: #646e83;
+    font-size: 18px;
+}
+.userInterface-content .row2{
+    min-height: 360px;
+    display: flex;
+    position: relative;
+}
+.userInterface-content .row2 img{
+    height: 100%;
+}
+.userInterface-content .row2 .text h2{
+    color: #181818;
+    font-family: "Cairo", Sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.userInterface-content .row2 .text ul{
+    display: contents;
+}
+.userInterface-content .row2 .text ul li{
+    margin-bottom: 10px;
+}
+.userInterface-content .row2 .text ul .check-icon{
+    background-color: #39B14A;
+    color: #fff;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    padding: 12px;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 20px;
+}
+.userInterface-content .row2 .text ul .prag{
+    font-weight: 400;
+    font-family: "Cairo", Sans-serif;
+    color: #646e83;
+    font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+    .userInterface-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+}
+@media only screen and (max-width: 528px){
+    .userInterface-content{
+        margin: 40px 20px;
+        padding: 0 20px;
+    }
+    .userInterface-content .text h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .userInterface-content .text ul .prag{
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+    .userInterface-content .row1{
+        margin-bottom: 40px !important;
+    }
+    .userInterface-content .row2 .text ul .check-icon{
+        width: 15px !important;
+        height: 15px !important;
+        margin-right: 15px;
+    }
+}

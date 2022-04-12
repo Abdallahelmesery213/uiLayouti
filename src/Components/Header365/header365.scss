@@ -1,0 +1,78 @@
+.cat__parent {
+    position: relative;
+    .cat__container {
+        position: absolute;
+        width: 960px;
+        min-height: 350px;
+        display: none;
+        background-color: #1f2123;
+        top: 0px;
+        margin-top: 90px;
+        transform: translateX(50% );
+        right: 0;
+        border-radius: 20px;
+        padding: 20px;
+        &:after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100px;
+            top: -19%;
+            left: 0;
+            background-color: transparent;
+            position: absolute;
+        }
+        .category__content {
+            color: #fff;
+            height: 100%;
+            .category__ads {
+                display: flex;
+                align-items: center ;
+                justify-content: left;
+                height: 100%;
+                .category__ads__card {
+                    width: 80%;
+                    background-color: #6444fe;
+                    height: 100%;
+                    border-radius: 20px;
+                    padding: 20px;
+                    cursor: pointer;
+                    transition: all 0.2s linear;
+                    &:hover {
+                        background-color: #000000;
+                    }
+                    img {
+                        width: 90px;
+                        height: 90px;
+                        object-fit: contain;
+                        border-radius: 10px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .category__card {
+                width: 90%;
+                padding: 20px;
+                border-radius: 10px;
+                transition: all 0.3s linear;
+                cursor: pointer;
+                &:hover {
+                    background-color: #48484882;
+                }
+                h3 {
+                    font-size: 20px;
+                }
+                p {
+                    margin: 0;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+    &:hover {
+        color: #3aaa35;
+        .cat__container {
+            display: block;
+        }
+    }
+}

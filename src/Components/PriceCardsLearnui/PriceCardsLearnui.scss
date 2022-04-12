@@ -1,0 +1,118 @@
+.cards{
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    // padding: 60px 30px;
+    padding-top: 30px;
+    position: relative;
+    width: 99%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    // height: 1172px;
+}
+.cards .header-cards{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+}
+.cards .header-cards .icon-star{
+    font-size: 60px;
+    color: #61ce70;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.cards .header-cards h2{
+    font-weight: 600;
+    color: #181818;
+    line-height: 60px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.cards .header-cards .price .dolar{
+    font-weight: 600;
+    color: #61ce70;
+    line-height: 48px;
+    font-size: 48px;
+}
+.cards .header-cards .price .hours{
+    font-weight: 500;
+    color: #181818;
+    font-size: 30px;
+    line-height: 30px;
+}
+.cards .lists{
+    display: contents;
+}
+.cards .lists li{
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.cards .lists li .icon-check{
+    color: #61ce70;
+}
+.cards .lists li .prag{
+    font-weight: 600;
+    color: #181818;
+    font-size: 18px;
+    line-height: 34px;
+}
+.cards .lists .remove .prag, .cards .lists .remove .icon-check{
+    font-weight: 500 !important;
+    color: #aeaeae !important;
+}
+.cards .lists .line-list{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #b19e9e;
+}
+.cards .lists .remove .prag, .cards .lists .listBorder{
+    // margin-top: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    // border-top: 1px solid #ededed;
+    color: #aeaeae;
+    font-size: 18px;
+}
+.cards .lists .register-button{
+    font-weight: 600;
+    background-color:#181818;
+    border: 1px solid transparent;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 18px 45px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.cards .lists .register-button:hover{
+    background-color: #61ce70;
+    transition: all 0.3s linear;
+}
+@media only screen and (max-width: 528px) {
+    .cards{
+        margin-bottom: 20px !important;
+    }
+    .cards .header-cards h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .cards .header-cards .price .dolar{
+        font-size: 27px !important;
+        line-height: 30px !important;
+    }
+    .cards .header-cards .price .hours{
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }   
+    .cards .lists li .prag{
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+    
+}

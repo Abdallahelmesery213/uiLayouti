@@ -1,0 +1,30 @@
+.testmonialsLearnui{
+    background-color:#f6fcf7;
+    margin-top: 50px;
+    padding: 100px 0;
+}
+.testmonialsLearnui .header-testmonials h2{
+    color: #223354;
+    font-family: "Cairo", Sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.testmonialsLearnui .header-testmonials p{
+    font-family: "Cairo", Sans-serif;
+    font-weight: 400;
+    color: #646e83;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 528px) {
+    .testmonialsLearnui{
+        margin: 40px 20px !important;
+        padding: 20px !important;
+    }
+    .testmonialsLearnui .header-testmonials h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+}

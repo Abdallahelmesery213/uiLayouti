@@ -1,0 +1,21 @@
+.mySwiper365 {
+    height: 450px ;
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            &.swiper-pagination-bullet-active {
+                background-color: #3aaa35;
+            }
+        }
+    }
+}   

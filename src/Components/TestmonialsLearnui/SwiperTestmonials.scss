@@ -1,0 +1,53 @@
+.mySwiper .swiper-slide{
+    min-height: 510px;
+    padding-bottom: 60px;
+}
+.mySwiper .swiper-slide .slide .description{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+.mySwiper .swiper-slide .info img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.mySwiper .swiper-slide .info h6{
+    color: #223354;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Cairo", Sans-serif;
+}
+.mySwiper .swiper-slide .info p{
+    color: #646e83;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Cairo", Sans-serif;
+}
+.mySwiper .icon-quote{
+    font-size: 40px;
+    color: #39b14a;
+    margin-bottom: 22px;
+}
+.mySwiper .slide .description p{
+    color: #646e83;
+    font-weight: 400;
+    font-size: 19px;
+    line-height:30px;
+    font-family: "Cairo", Sans-serif;
+}
+.mySwiper .swiper-pagination-bullet-active {
+    width: 16px !important;
+    height: 16px !important;
+    background-color: #223354 !important;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 10px ;
+    height: 10px ;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 4px;
+    transition: all 0.3s linear;
+}

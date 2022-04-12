@@ -1,0 +1,268 @@
+.content-learnui{
+    background-image: url('https://learnui.layouti.com/wp-content/uploads/2021/10/Banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 530px;
+    position: relative;
+    padding: 100px 0 0 0;
+    margin-bottom: 200px;
+}
+
+.content-learnui .background-overlay-learnui{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    opacity: 0.8;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.content-learnui .content-ui{
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+    width: 100%;
+}
+.content-learnui .content-ui .text{
+    height: 400px;
+    position: relative;
+}
+@media only screen and (max-width: 1100px) {
+    .content-learnui{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .content-learnui .content-ui .text h2{
+        font-size: 45px !important;
+    }
+    .content-learnui .content-ui .text h4{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        line-height: 40px !important;
+    }
+    .content-learnui .content-ui .text .icons-content{
+        position: relative !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .content-learnui {
+        min-height: 940px;
+        margin-bottom: 150px;
+    }
+    .content-learnui .content-ui .form{
+        width: 65% !important;
+        margin-top: 30px;
+    }
+    .content-learnui .content-ui .text h4{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (max-width: 528px) {
+    .content-learnui .content-ui .form{
+        width: 80% !important;
+        margin-top: 95px !important;
+        // padding: 0 20px;
+        margin: 40px 20px !important;
+        height: 630px !important;
+    }
+    .content-learnui .content-ui .form button{
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+    .content-learnui .content-ui .text{
+        margin: 0 20px;
+    }
+    .content-learnui .content-ui .text h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .content-learnui .content-ui .text h4{
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .content-learnui .content-ui .text p{
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+    .highlight h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+        margin: 0px 20px 10px !important;
+    }
+    .my-masonry-grid{
+        margin: 20px 20px;
+        padding: 0 20px;
+    }
+}
+.content-learnui .content-ui .text h2{
+    font-family: "Cairo", Sans-serif;
+    width: 100%;
+}
+
+.content-learnui .content-ui .text h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+}
+.content-learnui .content-ui .text h4{
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.content-learnui .content-ui .text p{
+    color: #C5C5C5;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.content-learnui .content-ui .text .icons-content{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+.content-learnui .content-ui .text .icons-content i {
+    font-size:20px;
+}
+.content-learnui .content-ui .text .icons-content a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+.content-learnui .content-ui .text .icons-content span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0px;
+}
+.highlight{
+    margin-top: 50px;
+}
+.highlight h2{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #181818;
+    line-height: 54px;
+}
+.content-learnui .content-ui .form{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 5;
+    height: 600px;
+    width: 30%;
+    margin-left: 25px;
+    
+    color: #181818;
+    border: 1px solid #d8d8d8;
+}
+.form form {
+    padding: 30px 40px;
+}
+
+.form .borderForm {
+    border: 1px solid #42BF64;
+    border-radius: 30px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.form .borderForm input, .form .borderForm select{
+    border: none;
+    outline: none;
+    position: absolute;
+    // border: 1px solid #42BF64;
+    margin: auto;
+    height: 100%;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: #646e83 !important;
+    font-size: 14px; 
+    line-height: 25px;
+    font-weight: 400;
+}
+.form .form-control:focus , .form select:focus{
+    box-shadow: none !important;
+}
+.form ::placeholder, .form .borderForm select option{
+    color: #646e83 !important;
+    font-size: 14px; 
+    line-height: 25px;
+    font-weight: 400;
+}
+.form .mobileBorder{
+    border: 1px solid #42BF64;
+    border-radius: 30px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+.form .mobileBorder .PhoneInput{
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.form .mobileBorder .PhoneInput input{
+    border: none;
+    outline: none;
+}
+.form .register{
+    width: 100%;
+    border: 1px solid #42BF64;
+    border-radius: 30px;
+    height: 50px;
+    margin-bottom: 10px;
+    background: #42BF64;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+    
+}
+.form .register:hover{
+    background: #42BF64 !important;
+    border: 1px solid #42BF64;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+.form label{
+    font-size: 14px;
+    color: #23262b;
+    font-weight: 400;
+    line-height: 25px;
+}
+.form .headerForm{
+    border-bottom: 1px solid #e6ebf4;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.form .headerForm h2{
+    color: #181818;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.form .star-form{
+    color: red;
+    font-size: 14px;
+}
