@@ -43,7 +43,7 @@
     margin-left: 20px;
 }
 .questionsLearnui .accordion .accordion-button::after{
-    background-image: url(../../assets/images/+.png) !important;
+    background-image: url(../../../assets/images/+.png) !important;
     background-position: center;
     border: 2px solid #EEF8F1;
     border-radius: 50%;
@@ -51,7 +51,7 @@
     background-color: #EEF8F1;
 }
 .questionsLearnui .accordion-button:not(.collapsed)::after{
-    background-image: url(../../assets/images/_.png) !important;
+    background-image: url(../../../assets/images/_.png) !important;
 }
 @media only screen and (max-width: 528px) {
     .questionsLearnui{

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import InterfaceImg from"../../assets/images/user-interface-design.PNG";
-import InterfaceImg2 from"../../assets/images/user-interface-design2.PNG";
+import InterfaceImg from '../../../assets/images/user-interface-design.PNG';
+import InterfaceImg2 from"../../../assets/images/user-interface-design2.PNG";
 import "./style.scss";
 
 const UserInterfaceLearnUi = () => {

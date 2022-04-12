@@ -1,13 +1,13 @@
 import React, { useState }from 'react';
 import './HomeLearnUi.scss';
 import { Container, Col, Row, FormGroup, Label,Input,Form, Button } from 'reactstrap';
-import UserInterfaceLearnUi from '../../../Components/UserInterfaceLearnUi/UserInterfaceLearnUi';
-import Card from '../../../Components/365HomeCard/Card'
+import UserInterfaceLearnUi from '../UserInterfaceLearnUi/UserInterfaceLearnUi';
+import Card from '../../../Components/365HomeCard/Card';
 import Masonry from 'react-masonry-css'
-import TestmonialsLearnui from '../../../Components/TestmonialsLearnui/TestmonialsLearnui';
-import PowerCardsLearnui from '../../../Components/PowerCardsLearnui/PowerCardsLearnui';
-import Steps3Learnui from '../../../Components/Steps3Learnui/Steps3Learnui';
-import QuestionsLearnui from '../../../Components/QuestionsLearnui/QuestionsLearnui';
+import TestmonialsLearnui from '../TestmonialsLearnui/TestmonialsLearnui';
+import PowerCardsLearnui from '../PowerCardsLearnui/PowerCardsLearnui';
+import Steps3Learnui from '../Steps3Learnui/Steps3Learnui';
+import QuestionsLearnui from '../QuestionsLearnui/QuestionsLearnui';
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 import AdsLearnui from './Ads/AdsLearnui';
