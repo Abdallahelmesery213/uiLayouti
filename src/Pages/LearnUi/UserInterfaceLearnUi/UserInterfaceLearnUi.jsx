@@ -20,38 +20,38 @@ const UserInterfaceLearnUi = () => {
                             <ul className='text-start'>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Know the UI design guidelines and principles</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Design for web and mobile based on UI design standards
                                     </span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Create a successful design that meets the customer’s needs</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Present your work inside your portfolio</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Know how to communicate with clients</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Know how to handover designs to developers</span>
                                 </li>
@@ -72,32 +72,32 @@ const UserInterfaceLearnUi = () => {
                             <ul>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Introduction to the UI design principles</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Numerous case studies to facilitate the UI implementation
                                     </span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Materials, free & paid tools, and kits</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Quick quizzes in the session</span>
                                 </li>
                                 <li>
                                     <span className='check-icon'>
-                                        <i class="fas fa-regular fa-check"></i>
+                                        <i className="fas fa-regular fa-check"></i>
                                     </span>
                                     <span className='prag'>Practical tasks using Sketch, Figma, and Adobe XD</span>
                                 </li>

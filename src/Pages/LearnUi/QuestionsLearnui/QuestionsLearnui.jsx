@@ -1,7 +1,6 @@
 import React from 'react';
 import './QuestionsLearnui.scss';
 import {Container} from 'reactstrap';
-// import { UncontrolledAccordion , AccordionItem, AccordionHeader} from "reactstrap";
 import {Accordion} from 'react-bootstrap';
 
 const QuestionsLearnui = () => {
@@ -66,21 +65,6 @@ const QuestionsLearnui = () => {
                 </Accordion.Item>
                 <hr className='hr-accordin' />
             </Accordion>
-
-            {/* <div className="accordion" id="accordionExample">
-                <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingOne">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        How long does the course take?
-                    </button>
-                    </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            There are two packages with 20 hours and 30 hours. Each of them will be divided into 2 times per week. The timing will be 2 hours from 10:00 PM to 12:00 AM Dubai time.
-                        </div>
-                    </div>
-                </div>
-            </div> */}
 
         </Container>
     </div>

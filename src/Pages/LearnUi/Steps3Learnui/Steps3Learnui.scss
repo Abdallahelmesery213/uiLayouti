@@ -16,10 +16,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 528px) {
+@media only screen and (max-width: 600px) {
     .steps{
         margin: 40px 20px;
-        padding: 20px;
+        // padding: 20px;
     }
     .steps .steps-header h2{
         font-size: 32px !important;

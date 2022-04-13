@@ -92,17 +92,17 @@
     color: #646e83;
     font-size: 18px;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 600px){
     .userInterface-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center !important;
+        margin: 40px 0px;
+        padding: 0 0px;
+        width: 90%;
+        margin: auto;
     }
-}
-@media only screen and (max-width: 528px){
-    .userInterface-content{
-        margin: 40px 20px;
-        padding: 0 20px;
+    .userInterface-content .row1 .text{
+        width: 100%;
+        margin-left: 0px;
     }
     .userInterface-content .text h2{
         font-size: 32px !important;
@@ -115,9 +115,16 @@
     .userInterface-content .row1{
         margin-bottom: 40px !important;
     }
-    .userInterface-content .row2 .text ul .check-icon{
+    .userInterface-content .text ul .check-icon{
         width: 15px !important;
         height: 15px !important;
-        margin-right: 15px;
+        margin-right: 12px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .userInterface-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
     }
 }

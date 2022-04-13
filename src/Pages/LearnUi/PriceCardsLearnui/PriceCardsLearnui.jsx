@@ -7,7 +7,7 @@ const PriceCardsLearnui = () => {
         <div className='cards'>
             <div className='header-cards'>
                 <div className='icon-star'>
-                    <i class="fas fa-star-half-alt"></i>
+                    <i className="fas fa-star-half-alt"></i>
                 </div>
                 <h2>UI Design</h2>
                 <div className='price'>

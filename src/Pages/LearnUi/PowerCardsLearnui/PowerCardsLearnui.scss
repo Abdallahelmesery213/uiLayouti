@@ -15,10 +15,10 @@
     line-height: 32px;
     margin-top: 30px;
 }
-@media only screen and (max-width: 528px) {
+@media only screen and (max-width: 600px) {
     .powerCardsLearnui{
         margin: 40px 20px !important;
-        padding: 20px !important;
+        // padding: 20px !important;
     }
     .powerCardsLearnui .cards-header h2{
         font-size: 32px !important;

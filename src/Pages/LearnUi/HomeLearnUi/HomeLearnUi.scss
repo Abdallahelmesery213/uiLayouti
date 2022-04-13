@@ -30,78 +30,7 @@
     height: 400px;
     position: relative;
 }
-@media only screen and (max-width: 1100px) {
-    .content-learnui{
-        display: flex;
-        flex-direction: column;
-        padding: 50px 0 0 0;
-    }
-}
-@media only screen and (max-width: 992px) {
-    .content-learnui .content-ui .text h2{
-        font-size: 45px !important;
-    }
-    .content-learnui .content-ui .text h4{
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-        line-height: 40px !important;
-    }
-    .content-learnui .content-ui .text .icons-content{
-        position: relative !important;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .content-learnui {
-        min-height: 940px;
-        margin-bottom: 150px;
-    }
-    .content-learnui .content-ui .form{
-        width: 65% !important;
-        margin-top: 30px;
-    }
-    .content-learnui .content-ui .text h4{
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-    }
-}
-@media only screen and (max-width: 528px) {
-    .content-learnui .content-ui .form{
-        width: 80% !important;
-        margin-top: 95px !important;
-        // padding: 0 20px;
-        margin: 40px 20px !important;
-        height: 630px !important;
-    }
-    .content-learnui .content-ui .form button{
-        width: 100%;
-        padding: 0 40px;
-        margin-bottom: 20px;
-    }
-    .content-learnui .content-ui .text{
-        margin: 0 20px;
-    }
-    .content-learnui .content-ui .text h2{
-        font-size: 32px !important;
-        line-height: 42px !important;
-    }
-    .content-learnui .content-ui .text h4{
-        font-size: 25px !important;
-        line-height: 35px !important;
-    }
-    .content-learnui .content-ui .text p{
-        font-size: 21px !important;
-        line-height: 31px !important;
-    }
-    .highlight h2{
-        font-size: 32px !important;
-        line-height: 42px !important;
-        margin: 0px 20px 10px !important;
-    }
-    .my-masonry-grid{
-        margin: 20px 20px;
-        padding: 0 20px;
-    }
-}
+
 .content-learnui .content-ui .text h2{
     font-family: "Cairo", Sans-serif;
     width: 100%;
@@ -265,4 +194,89 @@
 .form .star-form{
     color: red;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-learnui .content-ui .form{
+        width: 85% !important;
+        // margin-top: 95px !important;
+        // padding: 0 20px;
+        margin: 80px 0px 0 !important;
+        height: 630px !important;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .form .headerForm h2{
+        margin-left: 20px;
+    }
+    .content-learnui .content-ui .form form {
+        padding: 30px 20px;
+    }
+    .content-learnui .content-ui .form button{
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+    .content-learnui .content-ui .text{
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .content-learnui .content-ui .text h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .content-learnui .content-ui .text h4{
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .content-learnui .content-ui .text p{
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+    .highlight h2{
+        font-size: 32px !important;
+        line-height: 42px !important;
+        margin: 0px 20px 10px !important;
+    }
+    .my-masonry-grid{
+        margin: 20px 20px;
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .content-learnui {
+        min-height: 940px;
+        margin-bottom: 150px;
+    }
+    .content-learnui .content-ui .form{
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .content-learnui .content-ui .text h4{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .content-learnui .content-ui .text h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .content-learnui .content-ui .text h4{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        line-height: 40px !important;
+    }
+    .content-learnui .content-ui .text .icons-content{
+        position: relative !important;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .content-learnui{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+    }
 }
